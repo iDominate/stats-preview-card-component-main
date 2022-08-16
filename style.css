@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap');
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+body {
+    background-color: #0A0C1B !important;
+}
+
+.col-lg-6 {
+    padding: 0px !important;
+}
+
+.container {
+    width: 75%;
+    height: 80%;
+    padding-block: 10%;
+    padding-left: 10%;
+}
+
+.img-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 452px;
+    width: 540px;
+
+}
+
+.text-container {
+    height: 452px;
+    width: 540px;
+    background-color: #1C1938;
+    color: white;
+    padding-top: 10%;
+    padding-left: 10%;
+
+}
+
+h1>span {
+    color: #A257CE;
+}
+
+.text-container>h1,
+.text-container p {
+    margin-bottom: 0px;
+}
+
+.text-container h1:nth-of-type(2) {
+    margin-bottom: 8%;
+}
+
+
+
+.img {
+    position: absolute;
+    background-image: url('./images/image-header-desktop.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background-size: cover;
+    ;
+}
+
+.overlay {
+    opacity: .8;
+    position: absolute;
+    width: 100%;
+    height: 452px;
+    background-color: #A257CE;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.social-media-area {
+
+    color: white;
+
+    margin-top: 15%;
+    transform: translate(-33px, 10px);
+}
+
+.social-media-area>.row>div>p:first-of-type {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 700;
+    transform: translate(-33px, 10px);
+    margin-left: 39px;
+}
+
+.queries>p:nth-of-type(2) {
+    text-align: center;
+    margin-left: -29PX;
+}
+
+/* */
+.social-media-area>.row>div>p:nth-of-type(2) {
+    font-size: 19px;
+    letter-spacing: 1px;
+    color: #aaa;
+    margin-top: 10px;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+
+@media screen and (min-width: 391px) and (max-width: 415px) {
+    .img-container {
+        margin-top: -15%;
+    }
+
+    .overlay,
+    .img {
+        width: 328px;
+        height: 217px;
+        top: 10%;
+    }
+
+    .social-media-area {
+        transform: translate(10px, 10px);
+    }
+
+    .text-container {
+
+        width: 328px;
+        padding-left: 0px;
+        margin-top: -25%;
+        margin-left: 16%;
+        height: 578px;
+        margin-top: -35%;
+        margin-left: 19.41%;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 391px) {
+    .text-container {
+        padding: 11px;
+    }
+
+    .img-container {
+        margin-top: -15%;
+        transform: translate(-1px, 43px);
+
+    }
+
+    .overlay,
+    .img {
+        width: 270px;
+        height: 174px;
+        top: 10%;
+
+        border-bottom-right-radius: 0px !important;
+        border-top-right-radius: 6px !important;
+        border-top-left-radius: 6px;
+    }
+
+    .social-media-area {
+        transform: translate(10px, 10px);
+        margin-top: -11px;
+    }
+
+    h1 {
+        margin-left: 5px;
+    }
+
+    .text-container {
+        transform: translate(29px, 0px);
+
+        height: 465px;
+        width: 270px;
+        padding-left: 0px;
+        margin-top: -25%;
+        margin-left: 16%;
+
+        margin-top: -35%;
+        margin-left: 19.41%;
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+    }
+
+    .social-media-area>.row>div>p:first-of-type {
+        font-size: 25px;
+
+    }
+
+    .social-media-area>.row>div>p:nth-child(2) {
+        font-size: 14px;
+
+
+    }
+
+    .queries>p:first-child {
+        margin-left: 56px !important;
+    }
+
+    .queries>p:last-child {
+        margin-left: -18px;
+    }
+
+    .companies>p:last-child,
+    .templates>p:last-child {
+        margin-left: -4px;
+    }
+}
+
+/* @media screen and (min-width: 393px) and (max-width: 913px) {
+    .text-container {
+        height: 799px;
+        padding-left: 1px;
+    }
+
+    .social-media-area>.row>div>p:first-of-type {
+        font-size: 43px !important;
+        margin-left: 9%;
+
+
+    }
+
+    .social-media-area>.row>div>p:nth-child(2) {
+        font-size: 25px;
+
+
+    }
+
+    .social-media-area {
+        margin-left: 23px !important;
+        text-align: center;
+    }
+
+    .templates>p:first-of-type {
+        margin-left: 10px !important;
+
+    }
+
+    .companies>p:first-of-type {
+        margin-left: 39px;
+    }
+
+    .templates>p:last-of-type {
+        margin-left: -15px;
+    }
+
+    .queries>p:last-of-type {
+
+        margin-left: -39px;
+
+    }
+} */
