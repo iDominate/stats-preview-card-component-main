@@ -74,7 +74,7 @@ h1>span {
 }
 
 .overlay {
-    opacity: .8;
+    opacity: .4;
     position: absolute;
     width: 100%;
     height: 452px;
